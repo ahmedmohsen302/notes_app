@@ -11,6 +11,8 @@ class HomeView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       floatingActionButton: FloatingActionButton(
+        backgroundColor: Colors.lightBlueAccent,
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(28)),
         onPressed: () {
           showModalBottomSheet(
             shape: RoundedRectangleBorder(
@@ -22,7 +24,7 @@ class HomeView extends StatelessWidget {
             },
           );
         },
-        child: Icon(Icons.add),
+        child: Icon(Icons.add, color: Colors.black),
       ),
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 28.0),
