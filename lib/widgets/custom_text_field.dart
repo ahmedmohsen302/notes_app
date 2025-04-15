@@ -9,11 +9,12 @@ class CustomTextField extends StatelessWidget {
     return TextField(
       maxLines: maxLines,
 
-      cursorColor: Colors.lightBlue,
+      cursorColor: Colors.lightBlueAccent,
       decoration: InputDecoration(
         border: border(),
         enabledBorder: border(),
         hintText: hint,
+        hintStyle: TextStyle(color: Colors.lightBlueAccent),
       ),
     );
   }
