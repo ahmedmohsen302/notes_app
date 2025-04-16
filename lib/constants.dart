@@ -1,2 +1,2 @@
-const kPrimaryFont = 'lib/assets/Poppins-Regular.ttf';
+const kPrimaryFont = 'Poppins';
 const kNotesBox = 'notes box';
