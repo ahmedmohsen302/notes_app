@@ -20,7 +20,6 @@ class CustomTextField extends StatelessWidget {
         }
       },
       maxLines: maxLines,
-
       cursorColor: Colors.lightBlueAccent,
       decoration: InputDecoration(
         border: border(),
